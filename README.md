@@ -1,4 +1,4 @@
-mypage
+Hello
 ======
 
-Personal homepage / portfolio
+#### Welcome to Personal homepage / Portfolio of *taroinoue*
