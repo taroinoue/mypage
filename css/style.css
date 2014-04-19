@@ -1,0 +1,45 @@
+*, *:after, *:before {box-sizing: border-box;-moz-box-sizing: border-box;}
+* {margin:0;padding:0;border: 0 none;position: relative;}
+ 
+html {background: url("../pics/concrete gate.jpg") no-repeat 50% fixed; background-size: cover; position: relative; width: 100%; height: 100%; font-size: 50%; font-family: 'Noto Sans', sans-serif; color: White; font-weight: 300; overflow-y: scroll;}
+body {width: 100%;  min-height: 100%;  background: inherit;  overflow: hidden;}
+
+h1 {font-family: 'Lato', sans-serif; font-size: 3.5rem; font-weight: normal; text-transform: uppercase; padding: 0;}
+h2 {padding: 10px 0 0 20px;  font-size: 2.8rem; font-family: 'Lato', sans-serif;}
+h3 {padding: 0 0 10px 0; font-size: 2.0rem;}
+
+article {background-color: #0A0A0A;  position: relative;  width: 66.667%;  margin: 10vh auto 5vh;  padding: 10px 5px 10px 5px;  border-radius: 1px;  z-index: 5;  font-size: 1.8rem;  min-width: 750px;}
+article:before {content: '';  position: absolute;  top: 0; left:0; right:0; bottom:0;  background: inherit;  filter: blur(1px);  -webkit-filter: blur(1px);  -moz-filter: blur(1px);  -o-filter: blur(1px);  -ms-filter: blur(1px);  filter: url(#blur);filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='6');}
+
+#greeting {font-weight: 300; font-size: 2.5rem; padding: -15px 5px 15px;}
+#kamon {max-width: 400px;  height: auto;  position: absolute;  top: 50%;  margin: 0 0 0 -50px;}
+ 
+dl.intro {overflow: hidden;  zoom: 1;}
+dl.intro dt {width: 350px;  float: left;  clear: both;} 
+dl.intro dd{padding: 120px 0 120px 300px;  font-weight: normal;  font-weight: 300;  color: #fff;}
+
+.maincontainer{font-size: 1.6rem;  padding: 20px 0 20px;  overflow: auto;}
+.text-column-left {float: left;  width: 45%;  line-height: 1.6; text-align: left; text-justify: inter-ideograph;}
+#portrait{padding: 0 5px 5px 30px;  width: 100%;}
+.text-container-left{padding: 0 5px 5px 30px;}
+.text-column-right{float: right;  width: 49%;} 
+#education {line-height: 1.4;  padding: 2px 0 0 20px;}
+
+.skills dt {position: relative;  clear: both;  float: left;  width: 190px;  padding: 4px 0 2px 10px;  white-space: nowrap;}
+.skills dt:after {content: '';  display: block;  border-top: 1px solid #fff;  width: 100%;  height: 1px;  position: absolute;  top: 50%;  z-index: 1;}
+.skills dt span {background: #0A0A0A;  position: relative;  padding: 0 10px 0 0;  z-index: 5;}
+.skills dd {margin-left: 200px;  padding: 2px 0 0 10px;  height: 16px;}
+
+.circle {display: block;  float: left;  margin: 8px 4px;  width: 6px;  height: 6px;  border-radius: 3px;}
+.circle.shu{background-color: #EF454A;}
+.circle.wakakusa {background-color: #AAB300;}
+.circle.yamabuki {background-color: #F8A900;}
+  
+#boxcontainer {display: block;  width: 75%; min-width: 750px; text-align: center; margin: 20px auto 20px;}
+.icon {max-width: 150px;  height: auto;}
+.box {display: inline-block;}
+.box img {-webkit-transition-duration: 0.5s;}
+.box img:hover {-webkit-filter: invert(100%); -webkit-transition-duration: 0.5s;}
+.legal {text-align: right;  font-size: 1.0rem;}
+
+svg {height:0;  width: 0;  position: absolute;}
